@@ -28,12 +28,12 @@ public class MainActivity extends AppCompatActivity {
         final int vis = cal.getVisibility();
         if (vis == View.VISIBLE) {
             cal.setVisibility(View.INVISIBLE);
-            findViewById(R.id.layout4).setVisibility(View.VISIBLE);
-            findViewById(R.id.layout5).setVisibility(View.VISIBLE);
+            //findViewById(R.id.layout4).setVisibility(View.VISIBLE);
+            //findViewById(R.id.layout5).setVisibility(View.VISIBLE);
         } else {
             cal.setVisibility(View.VISIBLE);
-            findViewById(R.id.layout4).setVisibility(View.INVISIBLE);
-            findViewById(R.id.layout5).setVisibility(View.INVISIBLE);
+            //findViewById(R.id.layout4).setVisibility(View.INVISIBLE);
+            //findViewById(R.id.layout5).setVisibility(View.INVISIBLE);
         }
     }
 

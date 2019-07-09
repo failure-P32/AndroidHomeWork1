@@ -53,13 +53,6 @@
             android:text="@string/m"/>
     </LinearLayout>
 
-    <CalendarView
-        android:id="@+id/calendar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/layout3"/>
-
     <LinearLayout
         android:id="@+id/layout5"
         android:layout_below="@id/layout4"
@@ -144,5 +137,13 @@
         android:layout_marginBottom="30dp"
         android:text="@string/submit"
         android:onClick="infoSubmit" />
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:background="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/layout3"/>
 
 </RelativeLayout>
